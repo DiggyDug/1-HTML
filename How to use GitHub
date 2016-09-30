@@ -1,0 +1,12 @@
+Hi!
+
+Github is what we're going to be using in order to manage multiple people working on the same project(s) at the same time.
+
+The system works by there existing a 'Master' version of the project and then you can create 'branches' which are copies of the master.
+Branches allow you to do whatever you want to the master's files without actuallly affecting the master file itself,
+basically like saving a file to your desktop, it wont affect the version you got from online.
+
+When you have created and changed the branch and are happy that it works then you can merge the changes to the master version by
+making a pull request, one of us can then double check it and then complete the merge.
+
+For a guide with pictures on how to do the specifics, please read https://guides.github.com/activities/hello-world`
