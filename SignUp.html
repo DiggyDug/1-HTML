@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+	  <meta charset="utf-8"> <!-- UTF-8 allows for all content to be included with 8-bit encoding -->
+	  <title>Sign Up!</title>
+	  <meta name="description" content="The CRU Sign-up page.">
+	  <meta name="author" content="James">
+	  <link rel="stylesheet" href="StyleSheet.css">
+	</head>
+	
+	<body>
+		<h1>Cars "R" Us</h1>
+		<div id="menu">
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="News.html">News</a></li>
+			<li><a href="Activities.html">Activities</a></li>
+			<li><a href="ClubShop.html">Club Shop</a></li>
+			</ul>
+		</div>
+		<h2>Sign Up!</h2>
+		
+			<form action="index.html" id="form1">
+				<input type="text" name="forename" placeholder="Forename" required>
+				<input type="text" name="surname" placeholder="Surname" required>
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="password1" placeholder="Password" required>
+				<input type="password" name="password2" placeholder="Confirm your password" required>
+				<input type="date" name="birthday" placeholder="Birthday" required>
+				  <form>	
+				  <label>Gender:</label>            
+				  <label for = "male">Male</label>
+				  <input type="radio" name = "radSize" id = "male" value = "male" checked = "checked"/>
+				  <label for = "female">Female</label>
+				  <input type = "radio"name = "radSize" id = "sizeMed" value = "medium" />
+				  </form>
+				<input type="tel" name="phone" placeholder="Mobile phone">
+				<input type="email" name="email" placeholder="Email" required>
+			</form>
+			<input type="submit" value="Register" form="form1"/>
+			
+			<p>Signing up gives you countless benefits including:</p>
+			<ul>
+			<li>Unlimited messages</li>
+			<li>More access to the latest news</li>
+			<li>Promotional offers at the CAU store!</li>
+			<li>And much more!</li>
+			</ul>
+	</body>
+</html>
